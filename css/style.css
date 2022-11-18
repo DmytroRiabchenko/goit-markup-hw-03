@@ -68,11 +68,17 @@ img {
     line-height: 1.19;
     text-decoration: none;
     
-    padding: 24px 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .page-header {
     padding: 24px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo-style {
@@ -103,14 +109,46 @@ img {
 
 }
 
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+
 .site-nav .list {
     cursor: pointer;
-
-        
+    
+    
 }
 
 .site-nav .link.current {
     color: var(--accent-color)
+}
+
+.auth-nav {
+    display: flex;
+    margin-left: 354px;
+}
+
+.auth-nav .items {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 40px;
+}
+
+.auth-nav .items:last-child {
+    margin-right: 0;
 }
 
 .auth-nav a {
@@ -118,11 +156,11 @@ img {
 
     
  
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 
@@ -161,9 +199,25 @@ img {
     line-height: 1.16;
     text-align: center;
 
-    margin-top: 188px;
+    margin-top: 94px;
+    padding-bottom: 50px;
 
 }
+
+
+.work-team {
+    display: flex;
+    text-wrap: wrap;
+}
+
+.colors {
+    margin-right: 30px;
+}
+
+.colors:nth-last-child(n4) {
+    margin-right: 0;
+}
+
 
 .section-title-work {
     color: var(--title-text-color);
@@ -173,8 +227,24 @@ img {
     line-height: 1.16;
     text-align: center;
 
+    margin-top: 94px;
     padding-bottom: 50px;
 
+}
+
+.imeg-work {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.imeg-work .foto-work {
+    margin-right: 30px;
+}
+
+.imeg-work .foto-work:nth-child(3n) {
+    margin-right: 0;
 }
 
 .subtitle { 
@@ -185,6 +255,11 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+}
+
+.feature-list {
+    display: flex;
+    margin-top: 94px;
 }
 
 .feature-list .title {
@@ -272,6 +347,7 @@ background: var(--hover-focus-color);
 .adress-list :focus {
     color: var(--accent-color);
 }
+
 
 /* Кнопки портфолио*/
 
