@@ -19,6 +19,28 @@ ul {
     --backgraund-section:#F5F4FA;
     --hover-focus-color: #188CE8;
 }
+
+p,h1,h2,h3,h4,h5,h6 { 
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+img {
+    display: block;
+}
+
+
 /* вторичный основоного текста #212121 */
 
 /* основной цвет текста #757575; */
@@ -44,10 +66,14 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none; 
+    text-decoration: none;
+    
+    padding: 24px 0px;
 }
 
-
+.page-header {
+    padding: 24px;
+}
 
 .logo-style {
 
@@ -72,6 +98,9 @@ ul {
 .hero {
     background: var(--footer-backgraund);
     text-align: center;
+    padding: 200px 0;
+
+
 }
 
 .site-nav .list {
@@ -113,16 +142,39 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+
+   margin-bottom: 30px;
+
+}
+
+.section {
+    padding: 94px 0px;
 }
 
 
-.section-title {
+.section-title-team {
     color: var(--title-text-color);
 
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    margin-top: 188px;
+
+}
+
+.section-title-work {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    padding-bottom: 50px;
+
 }
 
 .subtitle { 
@@ -158,6 +210,8 @@ ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+
+    padding: 10px 0px;
 }
 
 .btn {
@@ -171,6 +225,9 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+
+    display: block;
+    margin: 0 auto;
     
   
 }
