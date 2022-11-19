@@ -104,7 +104,8 @@ img {
 }
 
 .site-nav :hover,
-.site-nav :focus {
+.site-nav :focus,
+.site-nav :active {
   color: var(--accent-color);
 }
 
@@ -126,7 +127,7 @@ img {
   cursor: pointer;
 }
 
-.site-nav .link.current {
+.site-nav .link-current {
   color: var(--accent-color);
 }
 
@@ -193,6 +194,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
 
   display: block;
   margin: 0 auto;
@@ -229,14 +231,16 @@ img {
   text-transform: uppercase;
 }
 
+.title {
+  margin-bottom: 10px;
+}
+
 .text {
   color: var(--primary-text-color);
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
-  padding: 10px 0px;
 }
 
 /* Секция работа */
@@ -302,6 +306,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 10px;
 }
 
 .team {
@@ -328,7 +333,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 
   display: block;
 }
@@ -344,8 +349,11 @@ img {
   line-height: 1.71;
   text-decoration: none;
 
-  margin-bottom: 12px;
   display: block;
+}
+
+.fotter-social-list:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-adress {
@@ -359,7 +367,6 @@ img {
   line-height: 1.71;
   text-decoration: none;
 
-  margin-bottom: 12px;
   display: block;
 }
 
